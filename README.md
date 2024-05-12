@@ -15,10 +15,10 @@ This project utilizes Poky to build a Linux image for Raspberry Pi 3B+.
 ```bash
 $ bitbake core-image-x11
 ```
-  This will generate image file in `my_build/tmp/image/`
+  This will generate image file in `my_build/tmp/deploy/images/`
   
 **4. To build the qt5 toolchain for application development run below command.**  
 ```bash
 $ bitbake meta-toolchain-qt5
 ```  
-This will generate toolkit installer under the path `my_build/tmp/sdk/`
+This will generate toolkit installer under the path `my_build/tmp/deploy/sdk/`
